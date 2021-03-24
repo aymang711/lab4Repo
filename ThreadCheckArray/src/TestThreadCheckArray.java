@@ -1,7 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/** a class to Test the Thread Check and run the program
+ * It will run the program using 2 threads to run faster
+  @author Ayman Gazal 
+  @version 2.0 Build March 22/3/2021 .
+  */
 public class TestThreadCheckArray {
+	/**
+	 * main
+	 * @param args        argument that the system sent
+	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
